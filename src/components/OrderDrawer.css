@@ -1,0 +1,28 @@
+.drawer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    background:white;
+    height:60vh;
+    border-radius:20px 20px 0 0;
+    box-shadow:0 -4px 20px rgba(0,0,0,0.2);
+    padding:20px;
+    z-index:100;
+    }
+    
+    .drawer-item{
+    display:flex;
+    justify-content:space-between;
+    padding:10px 0;
+    border-bottom:1px solid #eee;
+    }
+    
+    .send-order{
+    width:100%;
+    margin-top:20px;
+    background:black;
+    color:white;
+    padding:14px;
+    border-radius:10px;
+    }

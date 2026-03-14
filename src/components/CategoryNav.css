@@ -1,0 +1,22 @@
+.category-nav{
+    position:sticky;
+    top:70px;
+    display:flex;
+    overflow-x:auto;
+    gap:10px;
+    background:white;
+    padding:10px;
+    border-bottom:1px solid #eee;
+    z-index:10;
+    }
+    
+    .cat{
+    padding:6px 14px;
+    border-radius:20px;
+    background:#f2f2f2;
+    }
+    
+    .active{
+    background:black;
+    color:white;
+    }

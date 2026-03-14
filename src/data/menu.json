@@ -4,50 +4,129 @@
     {
       "name": "Starters",
       "items": [
-        { "name": "Paneer Tikka", "price": 220, "type": "veg" },
-        { "name": "Hara Bhara Kabab", "price": 180, "type": "veg" },
-        { "name": "Veg Manchurian", "price": 200, "type": "veg" },
-        { "name": "Spring Rolls", "price": 190, "type": "veg" },
-        { "name": "Chicken Tikka", "price": 260, "type": "nonveg" },
-        { "name": "Chicken Lollipop", "price": 280, "type": "nonveg" },
-        { "name": "Chilli Chicken", "price": 270, "type": "nonveg" }
+        {
+          "name": "Paneer Tikka",
+          "price": 220,
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1603893662172-99ed0cea2a08"
+        },
+        {
+          "name": "Hara Bhara Kabab",
+          "price": 180,
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1631452180539-96aca7d48617"
+        },
+        {
+          "name": "Veg Manchurian",
+          "price": 200,
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1626804475297-41608ea09aeb"
+        },
+        {
+          "name": "Chicken Tikka",
+          "price": 260,
+          "type": "nonveg",
+          "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950"
+        },
+        {
+          "name": "Chicken Lollipop",
+          "price": 280,
+          "type": "nonveg",
+          "image": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7"
+        }
       ]
     },
     {
       "name": "Main Course",
       "items": [
-        { "name": "Paneer Butter Masala", "price": 320, "type": "veg" },
-        { "name": "Kadai Paneer", "price": 310, "type": "veg" },
-        { "name": "Shahi Paneer", "price": 330, "type": "veg" },
-        { "name": "Dal Tadka", "price": 200, "type": "veg" },
-        { "name": "Dal Makhani", "price": 240, "type": "veg" },
-        { "name": "Mix Veg Curry", "price": 220, "type": "veg" },
-        { "name": "Chicken Curry", "price": 350, "type": "nonveg" },
-        { "name": "Butter Chicken", "price": 380, "type": "nonveg" },
-        { "name": "Chicken Kadai", "price": 360, "type": "nonveg" },
-        { "name": "Mutton Curry", "price": 420, "type": "nonveg" },
-        { "name": "Egg Curry", "price": 220, "type": "nonveg" }
+        {
+          "name": "Paneer Butter Masala",
+          "price": 320,
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7"
+        },
+        {
+          "name": "Kadai Paneer",
+          "price": 310,
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976"
+        },
+        {
+          "name": "Dal Tadka",
+          "price": 200,
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1626132647523-66c08d0f4e73"
+        },
+        {
+          "name": "Butter Chicken",
+          "price": 380,
+          "type": "nonveg",
+          "image": "https://images.unsplash.com/photo-1604908176997-4314edc52e35"
+        },
+        {
+          "name": "Chicken Curry",
+          "price": 350,
+          "type": "nonveg",
+          "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143"
+        }
       ]
     },
     {
       "name": "Desserts",
       "items": [
-        { "name": "Rasgulla", "price": 120, "type": "veg" },
-        { "name": "Gulab Jamun", "price": 120, "type": "veg" },
-        { "name": "Ice Cream (Vanilla)", "price": 90, "type": "veg" },
-        { "name": "Ice Cream (Chocolate)", "price": 100, "type": "veg" },
-        { "name": "Kheer", "price": 110, "type": "veg" }
+        {
+          "name": "Rasgulla",
+          "price": 120,
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fae7c2"
+        },
+        {
+          "name": "Gulab Jamun",
+          "price": 120,
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1617196034738-26c5c9c1c7c9"
+        },
+        {
+          "name": "Kheer",
+          "price": 110,
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f"
+        },
+        {
+          "name": "Ice Cream",
+          "price": 100,
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb"
+        }
       ]
     },
     {
       "name": "Soft Drinks",
       "items": [
-        { "name": "Coke", "price": 50, "type": "veg" },
-        { "name": "Sprite", "price": 50, "type": "veg" },
-        { "name": "Thumbs Up", "price": 50, "type": "veg" },
-        { "name": "Fanta", "price": 50, "type": "veg" },
-        { "name": "Mineral Water", "price": 30, "type": "veg" },
-        { "name": "Fresh Lime Soda", "price": 70, "type": "veg" }
+        {
+          "name": "Coke",
+          "price": 50,
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1629203432180-71e96a71c6c3"
+        },
+        {
+          "name": "Sprite",
+          "price": 50,
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1598514982841-0c9d7d6f4f65"
+        },
+        {
+          "name": "Thumbs Up",
+          "price": 50,
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1581006852262-e4307cf6283a"
+        },
+        {
+          "name": "Fresh Lime Soda",
+          "price": 70,
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba"
+        }
       ]
     }
   ]
