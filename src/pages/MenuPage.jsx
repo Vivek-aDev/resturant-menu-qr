@@ -1,21 +1,28 @@
-
 import { useState } from "react";
 import menu from "../data/menu.json";
+import { useSearchParams } from "react-router-dom";
 
 export default function MenuPage() {
   const [type, setType] = useState("veg");
   const [activeCategory, setActiveCategory] = useState(menu.categories[0].name);
+  const [searchParams] = useSearchParams();
+  const table = searchParams.get("table");
 
   const filteredCategories = menu.categories.map((cat) => ({
     ...cat,
-    items: cat.items.filter((i) => i.type === type)
+    items: cat.items.filter((i) => i.type === type),
   }));
 
   return (
     <div className="menu-container">
       <header className="header">
         <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" />
-        <h2>{menu.restaurant}</h2>
+
+        <div>
+          <h2>{menu.restaurant}</h2>
+
+          {table && <p className="table">Table {table}</p>}
+        </div>
       </header>
 
       <div className="toggle">
