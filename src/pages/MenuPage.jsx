@@ -1,10 +1,13 @@
 import { useState } from "react";
 import menu from "../data/menu.json";
 import { useSearchParams } from "react-router-dom";
+import DishCard from '../components/dish-card/DishCard'
+import FloatingCart from "../components/floating-cart/FloatingCart";
+import OrderDrawer from "../components/order-drawer/OrderDrawer";
 
-import DishCard from "../components/DishCard";
-import FloatingCart from "../components/FloatingCart";
-import OrderDrawer from "../components/OrderDrawer";
+
+
+
 
 export default function MenuPage() {
   const [type, setType] = useState("veg");
